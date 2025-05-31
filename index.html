@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qiwei Li | PhD in Artificial Intelligence</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Header Section -->
+    <header class="header">
+        <div class="avatar-container">
+            <img src="data/avatar.jpg" alt="Qiwei Li" class="avatar">
+            <div class="avatar-overlay">
+                <span>PhD Candidate</span>
+            </div>
+        </div>
+        <div class="header-info">
+            <h1 class="nickname">Kite-Line</h1>
+            <h2 class="name">Qiwei Li</h2>
+            <p class="title">PhD in Artificial Intelligence, Wuhan University</p>
+            <div class="social-links">
+                <a href="mailto:qw-line@whu.edu.cn" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://scholar.google.com/citations?hl=zh-CN&user=fm8w8XsAAAAJ" class="social-link" target="_blank">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="https://github.com/Line-Kite" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <div class="scroll-indicator" id="scrollIndicator">
+                <div class="scroll-circle">
+                    <div class="scroll-arrow"></div>
+                </div>
+                <span class="scroll-text">Explore My Work</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Personal Information & Research Areas -->
+        <section class="info-research-section">
+            <div class="personal-info">
+                <h3><i class="fas fa-user-circle"></i> About Me</h3>
+                <p>I am a PhD student in Wuhan University, working under the supervision of <a href="https://zcli-charlie.github.io/" style="color: white;">Prof. Zuchao Li</a> in the Myth Lab.</p>
+                
+                <h3><i class="fas fa-graduation-cap"></i> Academic Background</h3>
+                <div class="background-item">
+                    <span class="year">2025 - Present</span>
+                    <div class="background-details">
+                        <strong>PhD in Artificial Intelligence</strong>
+                        <p>Wuhan University, China</p>
+                    </div>
+                </div>
+                <div class="background-item">
+                    <span class="year">2013 - 2025</span>
+                    <div class="background-details">
+                        <strong>MS in Computer Science</strong>
+                        <p>Wuhan University, China</p>
+                    </div>
+                </div>
+                
+                <h3><i class="fas fa-flask"></i> Research Details</h3>
+                <div class="research-details">
+                    <div class="detail-section">
+                        <div class="detail-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div>
+                            <h4>Lab</h4>
+                            <p>Myth Lab</p>
+                        </div>
+                    </div>
+                    <div class="detail-section">
+                        <div class="detail-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div>
+                            <h4>Research Areas</h4>
+                            <p>Doc AI, RAG, LLM</p>
+                        </div>
+                    </div>
+                    <div class="detail-section">
+                        <div class="detail-icon">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <div>
+                            <h4>Research Status</h4>
+                            <p>Active Research</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="research-areas">
+                <h3><i class="fas fa-search"></i> Research Areas</h3>
+                <div class="area-container">
+                    <div class="area-card" data-tooltip="Analyzing and understanding document content">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Document Intelligence</span>
+                    </div>
+                    <div class="area-card" data-tooltip="Enhancing generation with retrieval mechanisms">
+                        <i class="fas fa-database"></i>
+                        <span>Retrieval-Augmented Generation</span>
+                    </div>
+                    <div class="area-card" data-tooltip="Large-scale language modeling">
+                        <i class="fas fa-language"></i>
+                        <span>Large Language Models</span>
+                    </div>
+                    <div class="area-card" data-tooltip="Extracting structured information from text">
+                        <i class="fas fa-project-diagram"></i>
+                        <span>Information Extraction</span>
+                    </div>
+                    <div class="area-card" data-tooltip="Structuring knowledge in interconnected graphs">
+                        <i class="fas fa-network-wired"></i>
+                        <span>Knowledge Graphs</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Publications Section -->
+        <section class="publications">
+            <h3><i class="fas fa-book"></i> Publications</h3>
+            <div class="publications-container">
+                <div class="poster-carousel">
+                    <div class="carousel-container">
+                        <div class="carousel-slides">
+                            <!-- Carousel slides will be injected by JavaScript -->
+                        </div>
+                        <div class="carousel-controls">
+                            <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                            <div class="carousel-indicators"></div>
+                            <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="paper-list">
+                    <div class="paper-list-container">
+                        <!-- Paper list will be injected by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2023 Qiwei Li (Kite-Line) | PhD Candidate at Wuhan University</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Terms of Use</a> | 
+            <a href="mailto:qw-line@whu.edu.cn">Contact</a>
+        </div>
+    </footer>
+
+    <!-- Include particles.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/papers.js"></script>
+    <script src="data/papers.js"></script>
+</body>
+</html>
