@@ -372,7 +372,7 @@ body {
 .area-card::after {
     content: attr(data-tooltip);
     position: absolute;
-    left: 105%;
+    right: 105%;
     top: 50%;
     transform: translateY(-50%);
     background: rgba(10, 10, 30, 0.9);
@@ -390,7 +390,7 @@ body {
 
 .area-card:hover::after {
     opacity: 1;
-    left: 110%;
+    right: 110%;
 }
 
 .publications {
