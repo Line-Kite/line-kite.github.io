@@ -6,7 +6,6 @@ const papersData = [
         conference: "MM",
         paperLink: "https://dl.acm.org/doi/abs/10.1145/3581783.3612327",
         github: "https://github.com/Line-Kite/GraphLayoutLM",
-        huggingface: "https://huggingface.co/kite-line/doc-model",
         posterPdf: "data/papers/pdfs/mm23.pdf",
         year: "2023"
     },
@@ -24,7 +23,6 @@ const papersData = [
         authors: "Juncheng Yang, Qiwei Li, Shuai Xie, Wei Yu, Shijun Li",
         conference: "IJCNN",
         paperLink: "https://ieeexplore.ieee.org/abstract/document/10651307/",
-        // huggingface: "https://huggingface.co/kite-line/adaptive-llm",
         year: "2024"
     },
     {
