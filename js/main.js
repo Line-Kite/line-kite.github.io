@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const targetSection = document.querySelector('.info-research-section');
         targetSection.scrollIntoView({ 
             behavior: 'smooth',
-            block: 'start'
+            block: 'center'
         });
         
         // 添加视觉反馈
